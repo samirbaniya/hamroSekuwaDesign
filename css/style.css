@@ -1,0 +1,23 @@
+/*css for homepage*/
+.container{
+    border: 1px solid black;
+    width: 80%;
+    margin: 2% auto;
+    padding: 4% 0;
+}
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+/*css for navbar*/
+.logo{
+    width: 10%;
+    border: 1px solid red;
+    float: left;
+}
+li{
+    float: right;
+}
+.menu ul{
+    list-style: none;
+}
