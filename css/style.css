@@ -1,29 +1,54 @@
 /*CSS for homepage*/
-.container{
-    border: 1px solid black;
+.container {
+    border: 1px solid red;
     width: 80%;
     margin: 2% auto;
-    padding: 4% 0;
+    padding: 1%;
 }
-*{
+
+* {
     margin: 0 0;
     padding: 0 0;
 }
+
+.img-responsive {
+    width: 100%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ff6b81;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
 /*CSS for navbar*/
-.logo{
+.logo {
     width: 10%;
     border: 1px solid red;
     float: left;
 }
-li{
-    float: right;
-}
-li a{
-    padding: 10px;
-	padding-top: 14px;
-	color: black;
-    text-decoration: none;
-}
-.menu ul{
+
+.menu ul {
     list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 2%;
 }
