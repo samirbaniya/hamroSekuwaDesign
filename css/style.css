@@ -1,4 +1,8 @@
-/*CSS for homepage*/
+/*
+Author : Samir Baniya
+Contact : samirbaniya500@gmail.com
+
+/*CSS for All*/
 .container {
     border: 1px solid red;
     width: 80%;
@@ -31,10 +35,29 @@ a {
     text-decoration: none;
     color: #ff6b81;
 }
-
+a:hover {
+    color: #ff4757;
+}
 .clearfix {
     clear: both;
     float: none;
+}
+
+.btn{
+    font-size: 1.2rem;
+    border: none;
+    padding: none;
+    border-radius: 5px;
+}
+.btn-primary{
+    color: white;
+    padding: 1%;
+    background-color: #ff6b81;
+}
+
+h2{
+    color: #57606f;
+    margin-bottom: 1%;
 }
 
 /*CSS for navbar*/
@@ -44,11 +67,43 @@ a {
     float: left;
 }
 
+.menu{
+    line-height: 60px;
+}
 .menu ul {
     list-style-type: none;
 }
 
 .menu ul li {
     display: inline;
-    padding: 2%;
+    padding: 0 1%;
+    font-weight: bold;
+}
+/*CSS ofor navbar*/
+
+/* css for search bar  */
+.search{
+    background-image: url(../images/searchBackg.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    padding: 7% 0;
+    background-position: center;
+}
+
+.search input[type=search]{
+width: 50%;
+border: none;
+font-size: 1.2rem;
+border-radius: 5px;
+padding: 1%;
+}
+
+.categories{
+padding:4% 0;
+}
+.card{
+    border: 1px solid red;
+    width: 25%;
+    margin:0 4%;
+    float: left;
 }
