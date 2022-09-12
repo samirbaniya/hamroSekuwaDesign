@@ -4,7 +4,6 @@ Contact : samirbaniya500@gmail.com
 
 /*CSS for All*/
 .container {
-    border: 1px solid red;
     width: 80%;
     margin: 0 auto;
     padding: 1%;
@@ -60,6 +59,9 @@ a:hover {
     color: white;
     background-color: #ff6b81;
 }
+.btn-primary:hover{
+    color: white;
+}
 
 h2{
     color: #57606f;
@@ -71,13 +73,13 @@ h3{
 
 /*CSS for navbar*/
 .logo {
-    width: 10%;
-    border: 1px solid red;
+    width: 20%;
     float: left;
 }
 
 .menu{
-    line-height: 60px;
+    margin-top: 68px;
+    font-size: 25px;
 }
 .menu ul {
     list-style-type: none;
@@ -92,7 +94,7 @@ h3{
 
 /* css for search bar  */
 .search{
-    background-image: url(../images/searchBackg.jpg);
+    background-image: url(../images/bg.jpg);
     background-size: cover ;
     background-repeat: no-repeat;
     padding: 7% 0;
@@ -111,7 +113,6 @@ padding: 1%;
 padding:4% 0;
 }
 .card{
-    border: 1px solid red;
     width: 28%;
     margin:2%;
     float: left;
@@ -129,13 +130,15 @@ padding:4% 0;
 /* CSS for food menu */
 .food-menu{
     padding: 4% 0;
+    background: whitesmoke;
 }
 .box{
     width: 43%;
     float: left;
-    border: 1px solid red;
     padding: 2%;
     margin: 1%;
+    background: white;
+    border-radius: 10px;
 }
 .box-img{
     width: 20%;
@@ -145,4 +148,66 @@ padding:4% 0;
     width: 70%;
     float: left;
     margin: 2%;
+}
+.item-price{
+    font-size: 1.3rem;
+    padding: 1% 0;
+}
+.item-desc{
+    font-size: 1rem;
+    padding: 1%;
+    color: gray;
+    padding-bottom: 1%;
+}
+.social{
+    padding: 4% 0;
+}
+.social ul{
+    list-style: none;
+}
+.social ul li{
+    display: inline;
+    padding: 0 1%;
+}
+
+/* Responsive or Mobile Devices */
+@media screen and (max-width: 728px) {
+    .logo{
+        width: 80%;
+        float: none;
+        padding: 1% 0;
+    }
+    .menu{
+        width: 90%;
+        font-size: 1rem;
+        float: none;
+        text-align: center!important;
+        font-weight: unset;
+    }
+    .search{
+        padding: 10% 0;
+    }
+    .search input[type=search]{
+        width: 90%;
+        padding: 2% 0;
+        margin: 4% 0;
+        font-size: 1rem;
+        line-height: 10px;
+    }
+    .btn{
+        width: 90%;
+    }
+    .categories{
+        padding: 10% 0;
+    }
+    .card{
+        width: 90%;
+        padding: 0 5%;
+    }
+    .float-text{
+        left: 40%;
+    }
+    .food-menu{
+        padding: 10% 0;
+    }
 }
