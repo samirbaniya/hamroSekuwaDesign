@@ -57,10 +57,11 @@ a:hover {
 }
 .btn-primary{
     color: white;
-    background-color: #ff6b81;
+    background-color: #e67e22;
 }
 .btn-primary:hover{
     color: white;
+    background-color: #d35400;
 }
 
 h2{
@@ -116,6 +117,10 @@ padding:4% 0;
     width: 28%;
     margin:2%;
     float: left;
+    transition: 0.8s;
+}
+.card:hover{
+    transform: scale(1.08);
 }
 
 .float-container{
@@ -123,7 +128,7 @@ padding:4% 0;
 }
 .float-text{
     position: absolute;
-    left: 45%;
+    left: 37%;
     bottom: 40px;
 }
 
@@ -139,6 +144,12 @@ padding:4% 0;
     margin: 1%;
     background: white;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box:hover{
+    transition: 1s;
+    transform: scale(1.05);
 }
 .box-img{
     width: 20%;
@@ -163,11 +174,63 @@ padding:4% 0;
     padding: 4% 0;
 }
 .social ul{
-    list-style: none;
+    list-style-type: none;
 }
 .social ul li{
     display: inline;
     padding: 0 1%;
+}
+
+
+.fb-img:hover{
+    background-color: #0680dd;
+    border-radius: 10px;
+}
+
+.yt-img:hover{
+    background-color: #ea2f3e;
+    border-radius: 5px;
+}
+
+.twit-img:hover{
+    background-color: rgb(131 202 245 / 1);
+    border-radius: 10px;
+}
+
+.insta-img:hover{
+    background-color: #ea496a;
+    border-radius: 10px;
+}
+.contact-heading{
+    padding:3% 0;
+}
+.form-horizontal{
+    width: 60%;
+    margin: 4% auto;
+    padding: 1%;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-horizontal label{
+    width: 100%;
+    padding: 10% 0;
+    margin: 14% 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.form-control{
+    border: none;
+    width: 98%;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 1% auto;
+}
+.form-horizontal button{
+    width: 50%;
+    margin-left: 26%;
+    margin-top: 2%;
 }
 
 /* Responsive or Mobile Devices */
@@ -176,13 +239,23 @@ padding:4% 0;
         width: 80%;
         float: none;
         padding: 1% 0;
+        left: 40%;
     }
     .menu{
-        width: 90%;
+        width: 100%;
         font-size: 1rem;
         float: none;
         text-align: center!important;
         font-weight: unset;
+    }
+    .box{
+        width: 90%;
+        padding: 4%;
+        margin-bottom: 15px;
+    }
+
+    .h2{
+        padding: 10% 0;
     }
     .search{
         padding: 10% 0;
@@ -208,6 +281,9 @@ padding:4% 0;
         left: 40%;
     }
     .food-menu{
+        padding: 10% 0;
+    }
+    .social{
         padding: 10% 0;
     }
 }
